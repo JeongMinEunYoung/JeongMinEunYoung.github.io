@@ -30,6 +30,7 @@ html , body {font-size: 14px;width : 100%;height : 100%;}
 .wrap-1 .wrap-1-intro .grid-column-wrap .and {font-family: "Andellia Davilton";font-size: 5rem;color:  rgba(150, 80, 200, 0.6);}
 
 /* main wrap 테두리 star  */
+/*rgba(150, 80, 200, 1);*/
 .star {position: absolute;color:  rgba(150, 80, 200, 1);font-family: SCDream5;}
 .wrap-1 .wrap-1-star {position: absolute;top:0;bottom: 0;left: 0;right: 0;background-color: transparent;}
 .wrap-1-star .top-left {position: absolute;width: 100px;height: 100px; z-index: 1;}
@@ -48,4 +49,61 @@ html , body {font-size: 14px;width : 100%;height : 100%;}
 .wrap-1-star .bottom-right .star.top {right: 25%;top: 20%;font-size: 1.5rem;}
 .wrap-1-star .bottom-right .star.middle {top: 60%;left: 50%;font-size: 2.7rem;transform: translate(-50%, -50%);}
 .wrap-1-star .bottom-right .star.bottom {left: 15%;bottom: 10%;font-size: 1.5rem;}
+
+.wrap-2 {position: relative;height: 100%; }
+.wrap-2 .wrap-2-intro {display: grid; grid-template-rows: .4fr .6fr; height: 100%;}
+.wrap-2 .wrap-2-intro img {width: 100%;}
+
+.wrap-2 .wrap-2-intro .wrap-2-msg-sep {padding: 1.5rem 0; text-align: center; font-size: 1.5rem;}
+.wrap-2 .wrap-2-intro .wrap-2-msg-title { font-size: 1.5rem; text-align: center; padding : 0 0 2rem 0; color: #dfdfdf}
+.wrap-2 .wrap-2-intro .wrap-2-msg p{text-align: center; padding: .1rem 0; font-size: .9rem; color: #b4b4b4; font-family: NanumSquareEb;}
+.wrap-2 .wrap-2-intro .wrap-2-msg p:last-child{ font-size: .5rem; padding:1rem 0;}
+.wrap-2 .wrap-2-intro .wrap-2-groom-bride {display: grid; grid-template-columns: 1fr 1fr; position: absolute; width: 100%;}
+.wrap-2 .wrap-2-intro .wrap-2-groom-bride div {text-align: center; padding: 1rem 0;}
+
+
+.wrap-3 {position: relative;height: 100%;}
+.wrap-3 > div{ display: grid;grid-template-rows: .2fr .8fr; height: 100%;}
+.wrap-3 .wrap-3-title{position: relative; text-align: center; padding: 1rem 0;}
+.wrap-3 .wrap-3-title div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
+.wrap-3 .wrap-3-title div .wrap-3-title-star{ font-size: 1.5rem;}
+.wrap-3 .wrap-3-title div .wrap-3-title-gallery { font-size: 1.5rem;}
+.wrap-3 .wrap-3-images { position: relative;}
+.wrap-3 .wrap-3-images .wrap-3-image-wrap {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: 100px 100px 100px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.wrap-3 .wrap-3-images .wrap-3-image-wrap > div {
+    overflow: hidden;
+    position: relative;
+}
+
+img.normal {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+}
+img.top{
+    left: 50%;
+    top: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+}
+
+.wrap-3 .wrap-3-images .wrap-3-image-wrap > div > img {
+    /*width: 100%;*/
+    object-fit: cover;
+    /*height: 100%;*/
+    position: absolute;
+}
 
