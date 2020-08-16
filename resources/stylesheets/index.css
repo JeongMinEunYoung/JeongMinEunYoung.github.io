@@ -90,29 +90,93 @@ html , body {font-size: 14px;width : 100%;height : 100%;}
     }
 }
 
-.wrap-3 .wrap-3-images .wrap-3-image-wrap > div {
-    overflow: hidden;
-    position: relative;
+.wrap-3 .wrap-3-images .wrap-3-image-wrap > div {overflow: hidden;position: relative;}
+
+img.normal {left: 50%;top: 50%;transform: translate(-50%, -50%);height: 100%;}
+/*img.top{left: 50%;top: 50%;width: 50%;transform: translate(-50%, -50%);object-fit: contain;}*/
+.wrap-3 .wrap-3-images .wrap-3-image-wrap > div > img {object-fit: cover;position: absolute;}
+
+/* 이미지별 left 조절 */
+img.normal-5 {left: 0;}
+img.normal-4 {left:45%;}
+img.normal-9 {left: 70%;}
+
+.wrap-3 .wrap-3-preview {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    /*display: none;*/
 }
 
-img.normal {
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    height: 100%;
-}
-img.top{
-    left: 50%;
-    top: 50%;
-    width: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: contain;
+.wrap-3 .wrap-3-preview .preview-close {
+    position: absolute;
+    top: 0;
+    right: .5rem;
+    transform: rotate(45deg);
+    color: #FFFFFF;
+    font-size: 2.5rem;
 }
 
-.wrap-3 .wrap-3-images .wrap-3-image-wrap > div > img {
-    /*width: 100%;*/
-    object-fit: cover;
-    /*height: 100%;*/
+.wrap-3 .wrap-3-preview .preview-arrow {
+    font-size: 2rem;
+    color: #ffffff;
     position: absolute;
 }
 
+.wrap-3 .wrap-3-preview .preview-arrow.prev {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrap-3 .wrap-3-preview .preview-arrow.prev:after {
+    content :" ";
+    position: absolute;
+    border-top : 3px solid #FFFFFF;
+    border-left : 3px solid #FFFFFF;
+    left: 5px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-45deg);
+}
+
+.wrap-3 .wrap-3-preview .preview-arrow.next {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrap-3 .wrap-3-preview .preview-arrow.next::after {
+    content :" ";
+    position: absolute;
+    border-top : 3px solid #FFFFFF;
+    border-left : 3px solid #FFFFFF;
+    right: 5px;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    transform: rotate(135deg);
+}
+
+.wrap-3 .wrap-3-preview .preview-image.horizontal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+.wrap-3 .wrap-3-preview .preview-image.vertical {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
