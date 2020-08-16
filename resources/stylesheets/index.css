@@ -109,8 +109,12 @@ img.normal-9 {left: 70%;}
     right: 0;
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
-    /*display: none;*/
 }
+
+.wrap-3 .wrap-3-preview.hidden {
+    display: none;
+}
+
 
 .wrap-3 .wrap-3-preview .preview-close {
     position: absolute;
@@ -161,6 +165,10 @@ img.normal-9 {left: 70%;}
     width: 15px;
     height: 15px;
     transform: rotate(135deg);
+}
+
+.wrap-3 .wrap-3-preview .preview-image{
+    border-radius: 5px;
 }
 
 .wrap-3 .wrap-3-preview .preview-image.horizontal {
