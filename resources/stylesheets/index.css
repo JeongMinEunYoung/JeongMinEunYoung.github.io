@@ -235,9 +235,11 @@ img.normal-9 {left: 70%;}
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
+    font-size: 1rem;
+    font-size: 10px;
 }
 
-.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content div:last-child {
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .left {
     border-left: 1px solid black;
 }
 
@@ -254,4 +256,25 @@ img.normal-9 {left: 70%;}
     left: 50%;
     transform: translateX(-50%);
     border-bottom: 1px solid black;
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.phone::after{
+    width: 4.5rem;
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.subway::after{
+    width: 3rem;
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.walk::after{
+    width: 2rem;
+}
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.bus::after{
+    width: 2rem;
+}
+
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .address {
+    margin: 1rem 0;
+    border-left:none;
 }
