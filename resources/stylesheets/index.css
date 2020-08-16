@@ -63,7 +63,7 @@ html , body {font-size: 14px;width : 100%;height : 100%;}
 .wrap-2 .wrap-2-intro .wrap-2-groom-bride div {text-align: center; padding: 1rem 0;}
 
 
-.wrap-3 {position: relative;height: 100%;}
+.wrap-3 {position: relative;height: 100%; overflow: hidden;}
 .wrap-3 > div{ display: grid;grid-template-rows: .2fr .8fr; height: 100%;}
 .wrap-3 .wrap-3-title{position: relative; text-align: center; padding: 1rem 0;}
 .wrap-3 .wrap-3-title div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
