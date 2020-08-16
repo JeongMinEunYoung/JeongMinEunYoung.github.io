@@ -118,11 +118,11 @@ img.normal-9 {left: 70%;}
 
 .wrap-3 .wrap-3-preview .preview-close {
     position: absolute;
-    top: 0;
-    right: .5rem;
+    top: 1rem;
+    right: 1rem;
     transform: rotate(45deg);
     color: #FFFFFF;
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 .wrap-3 .wrap-3-preview .preview-arrow {
