@@ -72,7 +72,7 @@
     Kakao.init('621825037a17efac957f388450f47601');
     Kakao.isInitialized();
 
-    document.querySelector("#kakaoLogin").addEventListener("click", () => {
+    document.querySelector("#kakaoSharing").addEventListener("click", () => {
 
         Kakao.Link.sendCustom({
             templateId: 35032 ,
@@ -83,6 +83,31 @@
         });
         //]]>
     })
+
+    document.querySelector("#facebookSharing").addEventListener("click" , () => {
+        location.href = `https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=http://jeongmineunyoung.github.io/`
+    })
+
+
+    document.querySelector("#basicSharing").addEventListener("click" , () => {
+        copyToClipboard("https://jeongmineunyoung.github.io")
+        alert("복사되었습니다.")
+    });
+
+    document.querySelector("#copyAddress").addEventListener("click" , () => {
+        copyToClipboard("경기도 수원시 권선구 경수대로 401 루클라비")
+        alert("주소가 복사되었습니다.")
+    });
+
+    function copyToClipboard(val) {
+        var t = document.createElement("textarea");
+        document.body.appendChild(t);
+        t.value = val;
+        t.select();
+        document.execCommand('copy');
+        document.body.removeChild(t);
+    }
+
 
     // 마커
     var markerPosition  = new kakao.maps.LatLng(37.2624598,127.0241684);
