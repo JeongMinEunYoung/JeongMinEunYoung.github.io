@@ -69,6 +69,18 @@
     previewPrev.addEventListener("click", previewPrevEvent);
     previewNext.addEventListener("click", previewNextEvent);
 
+    document.querySelector("#kakaoLogin").addEventListener("click", () => {
+        alert(1)
+        Kakao.init('621825037a17efac957f388450f47601');
+        Kakao.Link.createCustomButton({
+            templateId: 35032 ,
+            templateArgs: {
+                'title': '제목 영역입니다.',
+                'description': '설명 영역입니다.'
+            }
+        });
+        //]]>
+    })
 
     // 마커
     var markerPosition  = new kakao.maps.LatLng(37.2624598,127.0241684);
@@ -94,15 +106,4 @@
     marker.setMap(map);
 
 
-    document.querySelector("#kakaoLogin").addEventListener("click", () => {
-        Kakao.init('621825037a17efac957f388450f47601');
-        Kakao.Link.createCustomButton({
-            templateId: 35032 ,
-            templateArgs: {
-                'title': '제목 영역입니다.',
-                'description': '설명 영역입니다.'
-            }
-        });
-        //]]>
-    })
 })();
