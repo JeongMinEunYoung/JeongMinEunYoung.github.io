@@ -69,10 +69,12 @@
     previewPrev.addEventListener("click", previewPrevEvent);
     previewNext.addEventListener("click", previewNextEvent);
 
+    Kakao.init('621825037a17efac957f388450f47601');
+    Kakao.isInitialized();
+
     document.querySelector("#kakaoLogin").addEventListener("click", () => {
-        alert(1)
-        Kakao.init('621825037a17efac957f388450f47601');
-        Kakao.Link.createCustomButton({
+
+        Kakao.Link.sendCustom({
             templateId: 35032 ,
             templateArgs: {
                 'title': '제목 영역입니다.',
