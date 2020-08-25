@@ -31,15 +31,15 @@
 
     let index = 1;
     const images = [
-        "resources/images/image-1.jpg",
-        "resources/images/image-2.jpg",
-        "resources/images/image-3.jpg",
-        "resources/images/image-9.jpg",
-        "resources/images/image-5.jpg",
-        "resources/images/image-6.jpg",
-        "resources/images/image-7.jpg",
-        "resources/images/image-8.jpg",
-        "resources/images/image-4.jpg"
+        "resources/compressed/image-1.jpg",
+        "resources/compressed/image-2.jpg",
+        "resources/compressed/image-3.jpg",
+        "resources/compressed/image-9.jpg",
+        "resources/compressed/image-5.jpg",
+        "resources/compressed/image-6.jpg",
+        "resources/compressed/image-7.jpg",
+        "resources/compressed/image-8.jpg",
+        "resources/compressed/image-4.jpg"
     ];
 
     const showPreview = e => {
