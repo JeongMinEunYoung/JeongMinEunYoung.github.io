@@ -5,6 +5,8 @@
     const previewPrev = document.querySelector("#prev");
     const previewNext = document.querySelector("#next");
     const previewImage = document.querySelector("#preview-image");
+    const callList = document.querySelectorAll(".call");
+    const messageList = document.querySelectorAll(".message");
 
     let index = 1;
     const images = [
@@ -82,11 +84,11 @@
             }
         });
         //]]>
-    })
+    });
 
     document.querySelector("#facebookSharing").addEventListener("click" , () => {
         location.href = `https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=http://jeongmineunyoung.github.io/`
-    })
+    });
 
 
     document.querySelector("#basicSharing").addEventListener("click" , () => {
@@ -108,6 +110,22 @@
         document.body.removeChild(t);
     }
 
+
+    callList.forEach(element => {
+        element.addEventListener('click' , () => {
+            const {phone} = element.dataset;
+            const decodeTel = atob(phone);
+            location.href = `tel:${decodeTel}`
+        })
+    });
+
+    messageList.forEach(element => {
+        element.addEventListener('click' , () => {
+            const {message} = element.dataset;
+            const decodeSMS = atob(message);
+            location.href = `sms:${decodeSMS}`
+        })
+    });
 
     // 마커
     var markerPosition  = new kakao.maps.LatLng(37.2624598,127.0241684);
@@ -131,6 +149,5 @@
 
     // 마커가 지도 위에 표시되도록 설정합니다
     marker.setMap(map);
-
 
 })();
