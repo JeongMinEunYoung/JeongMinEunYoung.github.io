@@ -369,13 +369,11 @@ p {
 
 .wrap-2 {
     position: relative;
-    height: 100%;
 }
 
 .wrap-2 .wrap-2-intro {
     display: grid;
     grid-template-rows: .4fr .6fr;
-    height: 100%;
 }
 
 .wrap-2 .wrap-2-intro img {
@@ -409,7 +407,7 @@ p {
 .wrap-2 .wrap-2-intro .wrap-2-groom-bride {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    position: absolute;
+    position: relative;
     width: 100%;
     color: #b4b4b4;
     font-family: aGodic16
@@ -417,7 +415,7 @@ p {
 
 .wrap-2 .wrap-2-intro .wrap-2-groom-bride div {
     text-align: center;
-    padding: 1rem 0;
+    padding: .5rem 0;
 }
 
 .wrap-2 .wrap-2-intro .wrap-2-groom-bride .call {
