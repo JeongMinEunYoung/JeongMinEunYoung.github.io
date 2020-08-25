@@ -183,7 +183,7 @@ p {
 
 .wrap-1 .wrap-1-date {
     font-style: italic;
-    font-size: 10px;
+    font-size: .8rem;
     margin-top: 7px;
     opacity: 0;
     transform: translate(0, 20px);
