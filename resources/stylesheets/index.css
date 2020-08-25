@@ -302,4 +302,4 @@ img.normal-9 {left: 70%;}
 .wrap-5 .wrap-5-social {display: grid; grid-template-columns: repeat(4 , 1fr); text-align: center; padding: 1rem 2rem;
 grid-column-gap: 2rem;}
 .wrap-5-social div{ position: relative;}
-.wrap-5-social div img {     display: block; height: 59px; margin: 0 auto;}
+.wrap-5-social div img {     display: block; height: 3rem; margin: 0 auto;}
