@@ -1,1 +1,692 @@
-@font-face{font-family:aGodic13;src:url(../fonts/aGodic13.otf)}@font-face{font-family:aGodic15;src:url(../fonts/aGodic15.otf)}@font-face{font-family:aGodic16;src:url(../fonts/aGodic16.otf)}@font-face{font-family:aGodic17;src:url(../fonts/aGodic17.otf)}@font-face{font-family:Andellia Davilton;src:url("../fonts/Andellia Davilton.otf")}@font-face{font-family:SCDream5;src:url(../fonts/SCDream5.otf)}@font-face{font-family:SCDream6;src:url(../fonts/SCDream6.otf)}@font-face{font-family:NanumSquareEb;src:url(../fonts/NanumSquareEB.ttf)}*{padding:0;margin:0}html,body{font-size:14px;width:100%;height:100%}p{padding:3px}.wrap{position:relative;height:100%}.wrap-1{position:relative;overflow:hidden;background-color:#fff}.wrap-1 .wrap-1-groom-bride{display:grid;grid-template-columns:repeat(3,1fr);text-align:center;margin:3rem 3rem;opacity:0;transform:translate(0,20px);transition:all .5s cubic-bezier(0.175,0.885,0.32,1.275) .4s}.wrap-1 .wrap-1-groom-bride.active{opacity:1;transform:translate(0,0)}.wrap-1 .wrap-1-groom-bride .intro-title{font-family:"SCDream6";font-weight:500}.wrap-1 .wrap-1-groom-bride .intro-name{font-family:"aGodic13";font-size:1.3rem}.wrap-1 .wrap-1-groom-bride img{width:50px}.wrap-1 .wrap-1-main-image{position:relative;opacity:0;transform:translate(0,20px);transition:all 1s cubic-bezier(0.39,0.575,0.565,1) .5s}.wrap-1 .wrap-1-main-image.active{opacity:1;transform:translate(0,0)}.wrap-1 .wrap-1-main-image-resource{width:165%;display:block;position:relative;left:50%;transform:translateX(-50%)}@media all and (max-width:330px){html,body{font-size:10px}}@media all and (min-width:331px) and (max-width:1000px){.wrap-1 .wrap-1-main-image-resource{font-size:12px;width:200%;display:block;position:relative;left:50%;transform:translateX(-50%)}}.wrap-1 .wrap-1-strong{position:relative;display:inline-block;border-bottom:3px solid #000;vertical-align:top;font-weight:700;opacity:0;transform:translate(0,20px);transition:all .5s cubic-bezier(0.175,0.885,0.32,1.275) .4s}.wrap-1 .wrap-1-strong.active{opacity:1;transform:translate(0,0)}.wrap-1 h1 .wrap-1-strong.event-1:before{content:">>";position:absolute;top:50%;left:-20px;font-size:10px;font-weight:300;line-height:20px;transform:translateY(-50%)}.wrap-1 h1 .wrap-1-strong.event-3:before{content:"<<";position:absolute;top:50%;right:-20px;font-size:10px;font-weight:300;line-height:20px;transform:translateY(-50%)}.wrap-1 .wrap-1-date{font-style:italic;font-size:.8rem;margin-top:7px;opacity:0;transform:translate(0,20px);transition:all .5s cubic-bezier(0.175,0.885,0.32,1.275) .4s}.wrap-1 .wrap-1-date.active{opacity:1;transform:translate(0,0)}.wrap-1 .wrap-1-title{font-family:SCDream6;position:absolute;top:2rem;left:50%;transform:translateX(-50%);text-align:center;font-size:.857rem;color:#fff}.wrap-1 .wrap-1-intro{position:absolute;padding:0 3rem;display:grid;left:0;grid-template-columns:repeat(3,1fr);right:0;top:15%}.wrap-1 .wrap-1-intro .grid-column-wrap{align-self:center;text-align:center}.wrap-1 .wrap-1-intro .grid-column-wrap .intro-title{font-family:NanumSquareEb;color:#2a1f14}.wrap-1 .wrap-1-intro .grid-column-wrap .intro-name{font-family:aGodic16;color:#2a1f14;font-size:1.5rem}.wrap-1 .wrap-1-intro .grid-column-wrap .and{font-family:"Andellia Davilton";font-size:5rem;color:#fbbabf}.star{position:absolute;color:#fe5a73;font-family:SCDream5}.wrap-1 .wrap-1-star{position:absolute;top:0;bottom:0;left:0;right:0;background-color:transparent}.wrap-1-star .top-left{position:absolute;width:100px;height:100px;z-index:1}.wrap-1-star .top-left .star.top{right:15%;top:15%;font-size:1.5rem}.wrap-1-star .top-left .star.middle{top:40%;left:50%;font-size:2.7rem;transform:translate(-50%,-50%)}.wrap-1-star .top-left .star.bottom{left:24%;bottom:20%;font-size:1.5rem}.wrap-1-star .top-right{position:absolute;width:100px;height:100px;right:0;z-index:1}.wrap-1-star .top-right .star.top{left:15%;top:15%;font-size:1.5rem}.wrap-1-star .top-right .star.middle{top:40%;left:50%;font-size:2.7rem;transform:translate(-50%,-50%)}.wrap-1-star .top-right .star.bottom{right:24%;bottom:20%;font-size:1.5rem}.wrap-1-star .bottom-left{position:absolute;width:100px;height:100px;bottom:0;left:0;z-index:1}.wrap-1-star .bottom-left .star.top{left:25%;top:20%;font-size:1.5rem}.wrap-1-star .bottom-left .star.middle{top:60%;left:50%;font-size:2.7rem;transform:translate(-50%,-50%)}.wrap-1-star .bottom-left .star.bottom{right:15%;bottom:10%;font-size:1.5rem}.wrap-1-star .bottom-right{position:absolute;width:100px;height:100px;bottom:0;right:0;z-index:1}.wrap-1-star .bottom-right .star.top{right:25%;top:20%;font-size:1.5rem}.wrap-1-star .bottom-right .star.middle{top:60%;left:50%;font-size:2.7rem;transform:translate(-50%,-50%)}.wrap-1-star .bottom-right .star.bottom{left:15%;bottom:10%;font-size:1.5rem}.wrap-2{position:relative}.wrap-2 .wrap-2-intro{display:grid;grid-template-rows:.4fr .6fr}.wrap-2 .wrap-2-intro img{width:100%}.wrap-2 .wrap-2-intro .wrap-2-msg-sep{padding:1rem 0;text-align:center;font-family:SCDream5;color:#000}.wrap-2 .wrap-2-intro .wrap-2-msg-title{font-size:1.5rem;text-align:center;padding:0 0 2rem 0;color:#000;font-family:SCDream5}.wrap-2 .wrap-2-intro .wrap-2-msg p{text-align:right;padding:.1rem 4.5rem .1rem 0;font-size:.9rem;color:#b4b4b4;font-family:aGodic15}.wrap-2 .wrap-2-intro .wrap-2-groom-bride{display:grid;grid-template-columns:1fr 1fr;position:relative;width:100%;color:#404040;font-family:aGodic16}.wrap-2 .wrap-2-intro .wrap-2-groom-bride div{text-align:center;padding:.5rem 0}.wrap-2 .wrap-2-intro .wrap-2-groom-bride .call{width:3rem}.wrap-2 .wrap-2-intro .wrap-2-groom-bride .message{width:3rem;border-left:1px solid #e5e5e5;padding-left:3px}.wrap-3{position:relative;height:100%;overflow:hidden;background-color:#f0f0f0}.wrap-3>div{display:grid;grid-template-rows:.2fr .8fr;height:100%}.wrap-3 .wrap-3-title{position:relative;text-align:center;padding:1rem 0}.wrap-3 .wrap-3-title div{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.wrap-3 .wrap-3-title div .wrap-3-title-star{font-size:1.5rem;font-family:SCDream5;color:#000}.wrap-3 .wrap-3-title div .wrap-3-title-gallery{font-size:1.5rem;color:#000;font-family:SCDream5}.wrap-3 .wrap-3-images{position:relative}.wrap-3 .wrap-3-images .wrap-3-image-wrap{position:absolute;display:grid;grid-template-columns:repeat(3,100px);grid-template-rows:repeat(3,150px);grid-row-gap:20px;grid-column-gap:20px;left:50%;top:50%;transform:translate(-50%,-50%)}@media all and (max-width:330px){.wrap-3 .wrap-3-images .wrap-3-image-wrap{grid-template-columns:repeat(3,80px)}}.wrap-3 .wrap-3-images .wrap-3-image-wrap>div{overflow:hidden;position:relative;border-radius:5px}img.normal{left:50%;top:50%;transform:translate(-50%,-50%);height:100%}.wrap-3 .wrap-3-images .wrap-3-image-wrap>div>img{object-fit:cover;position:absolute}img.normal-5{left:-25%}img.normal-4{left:45%}img.normal-9{left:70%}.wrap-3 .wrap-3-preview{position:absolute;left:0;bottom:0;top:0;right:0;background-color:rgba(0,0,0,0.8);z-index:2}.wrap-3 .wrap-3-preview.hidden{display:none}.wrap-3 .wrap-3-preview .preview-close{position:absolute;top:1rem;right:1rem;transform:rotate(45deg);color:#fff;font-size:3rem}.wrap-3 .wrap-3-preview .preview-arrow{font-size:2rem;color:#fff;position:absolute;width:100px;height:100px;z-index:5}.wrap-3 .wrap-3-preview .preview-arrow.prev{left:0;top:50%;transform:translateY(-50%)}.wrap-3 .wrap-3-preview .preview-arrow.prev:after{content:" ";position:absolute;border-top:3px solid #fff;border-left:3px solid #fff;left:15px;top:50%;width:15px;height:15px;transform:rotate(-45deg) translateY(-50%)}.wrap-3 .wrap-3-preview .preview-arrow.next{right:0;top:50%;transform:translateY(-50%)}.wrap-3 .wrap-3-preview .preview-arrow.next::after{content:" ";position:absolute;border-top:3px solid #fff;border-left:3px solid #fff;right:15px;top:50%;width:15px;height:15px;transform:rotate(135deg) translateY(-50%)}.wrap-3 .wrap-3-preview .preview-image{border-radius:5px}.wrap-3 .wrap-3-preview .preview-image.horizontal{position:absolute;left:50%;top:50%;width:90%;transform:translate(-50%,-50%);display:block}.wrap-3 .wrap-3-preview .preview-image.vertical{position:absolute;left:50%;top:50%;width:80%;transform:translate(-50%,-50%);display:block}.wrap-4{position:relative;background-color:#fff}.wrap-4>div{display:grid;grid-template-rows:.2fr .8fr}.wrap-4 .wrap-4-title{position:relative;text-align:center;padding:1rem 0}.wrap-4 .wrap-4-title div{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.wrap-4 .wrap-4-title div .wrap-4-title-star{font-size:1.5rem;font-family:SCDream5;color:#000}.wrap-4 .wrap-4-title div .wrap-4-title-map{font-size:1.5rem;font-family:SCDream5;color:#000}.wrap-4 .wrap-4-map .kakao-map{width:100%;height:300px}.wrap-4 .wrap-4-map .wrap-4-map-info{text-align:center;margin:1rem 0}.wrap-4 .wrap-4-map .wrap-4-map-info p{text-align:center;font-family:aGodic17}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info{padding:1rem 2rem}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title{border-bottom:1px solid #dcd7d7;display:grid;grid-template-columns:1fr 1fr;text-align:center;margin:.5rem 0 0 0}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title .title-content{padding:.5rem 0;font-family:aGodic15}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title p:last-child{border-left:1px solid #dcd7d7}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content{display:grid;grid-template-columns:1fr 1fr;text-align:center;font-size:1rem;font-size:10px}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .left{border-left:1px solid #dcd7d7}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap{position:relative;font-family:aGodic15}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap::after{content:'';width:2.2rem;height:1px;display:block;position:absolute;left:50%;transform:translateX(-50%);border-bottom:1px solid #dcd7d7}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.phone::after{width:3.5rem}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.subway::after{width:2.5rem}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.walk::after{width:1.8rem}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.bus::after{width:1.8rem}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .address{margin:1rem 0;border-left:0;font-family:aGodic16}.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .address p:last-child{font-family:aGodic15}.wrap-5{position:relative}.wrap-5 .wrap-5-title{position:relative;text-align:center;padding:1rem 0}.wrap-5 .wrap-5-title div .wrap-5-title-star{font-size:1.5rem;font-family:SCDream5;color:#000}.wrap-5 .wrap-5-title div .wrap-5-title-map{font-size:1.5rem;font-family:SCDream5;color:#000}.wrap-5 .wrap-5-social{display:grid;grid-template-columns:repeat(3,1fr);text-align:center;padding:1rem 4rem}.wrap-5-social div{position:relative}.wrap-5-social div img{display:block;height:2.5rem;margin:0 auto}.wrap-5-social>div>div{margin-bottom:1rem}
+* {
+    padding: 0;
+    margin: 0
+}
+
+html, body {
+    font-size: 14px;
+    width: 100%;
+    height: 100%
+}
+
+p {
+    padding: 3px
+}
+
+.wrap {
+    position: relative;
+    height: 100%
+}
+
+.wrap-1 {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff
+}
+
+.wrap-1 .wrap-1-groom-bride {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 3rem 3rem;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) .4s
+}
+
+.wrap-1 .wrap-1-groom-bride.active {
+    opacity: 1;
+    transform: translate(0, 0)
+}
+
+.wrap-1 .wrap-1-groom-bride .intro-title {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+
+.wrap-1 .wrap-1-groom-bride .intro-name {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem
+}
+
+.wrap-1 .wrap-1-groom-bride img {
+    width: 50px
+}
+
+.wrap-1 .wrap-1-main-image {
+    position: relative;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1) .5s
+}
+
+.wrap-1 .wrap-1-main-image.active {
+    opacity: 1;
+    transform: translate(0, 0)
+}
+
+.wrap-1 .wrap-1-main-image-resource {
+    width: 165%;
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+@media all and (max-width: 330px) {
+    html, body {
+        font-size: 10px
+    }
+}
+
+@media all and (min-width: 331px) and (max-width: 1000px) {
+    .wrap-1 .wrap-1-main-image-resource {
+        font-size: 12px;
+        width: 200%;
+        display: block;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+}
+
+.wrap-1 .wrap-1-strong {
+    position: relative;
+    display: inline-block;
+    border-bottom: 3px solid #000;
+    vertical-align: top;
+    font-weight: 700;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) .4s
+}
+
+.wrap-1 .wrap-1-strong.active {
+    opacity: 1;
+    transform: translate(0, 0)
+}
+
+.wrap-1 h1 .wrap-1-strong.event-1:before {
+    content: ">>";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    transform: translateY(-50%)
+}
+
+.wrap-1 h1 .wrap-1-strong.event-3:before {
+    content: "<<";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    transform: translateY(-50%)
+}
+
+.wrap-1 .wrap-1-date {
+    font-style: italic;
+    font-size: .8rem;
+    margin-top: 7px;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) .4s
+}
+
+.wrap-1 .wrap-1-date.active {
+    opacity: 1;
+    transform: translate(0, 0)
+}
+
+.wrap-1 .wrap-1-title {
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: .857rem;
+    color: #fff
+}
+
+.wrap-1 .wrap-1-intro {
+    position: absolute;
+    padding: 0 3rem;
+    display: grid;
+    left: 0;
+    grid-template-columns: repeat(3, 1fr);
+    right: 0;
+    top: 15%
+}
+
+.wrap-1 .wrap-1-intro .grid-column-wrap {
+    align-self: center;
+    text-align: center
+}
+
+.wrap-1 .wrap-1-star {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent
+}
+
+.wrap-1-star .top-left {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 1
+}
+
+.wrap-1-star .top-left .star.top {
+    right: 15%;
+    top: 15%;
+    font-size: 1.5rem
+}
+
+.wrap-1-star .top-left .star.middle {
+    top: 40%;
+    left: 50%;
+    font-size: 2.7rem;
+    transform: translate(-50%, -50%)
+}
+
+.wrap-1-star .top-left .star.bottom {
+    left: 24%;
+    bottom: 20%;
+    font-size: 1.5rem
+}
+
+.wrap-1-star .top-right {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    z-index: 1
+}
+
+.wrap-1-star .top-right .star.top {
+    left: 15%;
+    top: 15%;
+    font-size: 1.5rem
+}
+
+.wrap-1-star .top-right .star.middle {
+    top: 40%;
+    left: 50%;
+    font-size: 2.7rem;
+    transform: translate(-50%, -50%)
+}
+
+.wrap-1-star .top-right .star.bottom {
+    right: 24%;
+    bottom: 20%;
+    font-size: 1.5rem
+}
+
+.wrap-1-star .bottom-left {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    z-index: 1
+}
+
+.wrap-1-star .bottom-left .star.top {
+    left: 25%;
+    top: 20%;
+    font-size: 1.5rem
+}
+
+.wrap-1-star .bottom-left .star.middle {
+    top: 60%;
+    left: 50%;
+    font-size: 2.7rem;
+    transform: translate(-50%, -50%)
+}
+
+.wrap-1-star .bottom-left .star.bottom {
+    right: 15%;
+    bottom: 10%;
+    font-size: 1.5rem
+}
+
+.wrap-1-star .bottom-right {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    z-index: 1
+}
+
+.wrap-1-star .bottom-right .star.top {
+    right: 25%;
+    top: 20%;
+    font-size: 1.5rem
+}
+
+.wrap-1-star .bottom-right .star.middle {
+    top: 60%;
+    left: 50%;
+    font-size: 2.7rem;
+    transform: translate(-50%, -50%)
+}
+
+.wrap-1-star .bottom-right .star.bottom {
+    left: 15%;
+    bottom: 10%;
+    font-size: 1.5rem
+}
+
+.wrap-2 {
+    position: relative
+}
+
+.wrap-2 .wrap-2-intro {
+    display: grid;
+    grid-template-rows: .4fr .6fr
+}
+
+.wrap-2 .wrap-2-intro img {
+    width: 100%
+}
+
+.wrap-2 .wrap-2-intro .wrap-2-msg-sep {
+    padding: 1rem 0;
+    text-align: center;
+    color: #000
+}
+
+.wrap-2 .wrap-2-intro .wrap-2-msg-title {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 0 0 2rem 0;
+    color: #000;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.wrap-2 .wrap-2-intro .wrap-2-msg p {
+    text-align: right;
+    padding: .1rem 4.5rem .1rem 0;
+    font-size: .9rem;
+    color: #b4b4b4;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap-2 .wrap-2-intro .wrap-2-groom-bride {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    width: 100%;
+    color: #404040;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap-2 .wrap-2-intro .wrap-2-groom-bride div {
+    text-align: center;
+    padding: .5rem 0
+}
+
+.wrap-2 .wrap-2-intro .wrap-2-groom-bride .call {
+    width: 3rem
+}
+
+.wrap-2 .wrap-2-intro .wrap-2-groom-bride .message {
+    width: 3rem;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 3px
+}
+
+.wrap-3 {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f0f0f0
+}
+
+.wrap-3 > div {
+    display: grid;
+    grid-template-rows: .2fr .8fr;
+    height: 100%
+}
+
+.wrap-3 .wrap-3-title {
+    position: relative;
+    text-align: center;
+    padding: 1rem 0
+}
+
+.wrap-3 .wrap-3-title div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.wrap-3 .wrap-3-title div .wrap-3-title-star {
+    font-size: 1.5rem;
+    color: #000
+}
+
+.wrap-3 .wrap-3-title div .wrap-3-title-gallery {
+    font-size: 1.5rem;
+    color: #000;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.wrap-3 .wrap-3-images {
+    position: relative
+}
+
+.wrap-3 .wrap-3-images .wrap-3-image-wrap {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 150px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+@media all and (max-width: 330px) {
+    .wrap-3 .wrap-3-images .wrap-3-image-wrap {
+        grid-template-columns: repeat(3, 80px)
+    }
+}
+
+.wrap-3 .wrap-3-images .wrap-3-image-wrap > div {
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px
+}
+
+img.normal {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%
+}
+
+.wrap-3 .wrap-3-images .wrap-3-image-wrap > div > img {
+    object-fit: cover;
+    position: absolute
+}
+
+img.normal-5 {
+    left: -25%
+}
+
+img.normal-4 {
+    left: 45%
+}
+
+img.normal-9 {
+    left: 70%
+}
+
+.wrap-3 .wrap-3-preview {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2
+}
+
+.wrap-3 .wrap-3-preview.hidden {
+    display: none
+}
+
+.wrap-3 .wrap-3-preview .preview-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    transform: rotate(45deg);
+    color: #fff;
+    font-size: 3rem
+}
+
+.wrap-3 .wrap-3-preview .preview-arrow {
+    font-size: 2rem;
+    color: #fff;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    z-index: 5
+}
+
+.wrap-3 .wrap-3-preview .preview-arrow.prev {
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.wrap-3 .wrap-3-preview .preview-arrow.prev:after {
+    content: " ";
+    position: absolute;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    left: 15px;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    transform: rotate(-45deg) translateY(-50%)
+}
+
+.wrap-3 .wrap-3-preview .preview-arrow.next {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.wrap-3 .wrap-3-preview .preview-arrow.next::after {
+    content: " ";
+    position: absolute;
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    right: 15px;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    transform: rotate(135deg) translateY(-50%)
+}
+
+.wrap-3 .wrap-3-preview .preview-image {
+    border-radius: 5px
+}
+
+.wrap-3 .wrap-3-preview .preview-image.horizontal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    display: block
+}
+
+.wrap-3 .wrap-3-preview .preview-image.vertical {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    display: block
+}
+
+.wrap-4 {
+    position: relative;
+    background-color: #fff
+}
+
+.wrap-4 > div {
+    display: grid;
+    grid-template-rows: .2fr .8fr
+}
+
+.wrap-4 .wrap-4-title {
+    position: relative;
+    text-align: center;
+    padding: 1rem 0
+}
+
+.wrap-4 .wrap-4-title div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.wrap-4 .wrap-4-title div .wrap-4-title-star {
+    font-size: 1.5rem;
+    color: #000
+}
+
+.wrap-4 .wrap-4-title div .wrap-4-title-map {
+    font-size: 1.5rem;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #000
+}
+
+.wrap-4 .wrap-4-map .kakao-map {
+    width: 100%;
+    height: 300px
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-info {
+    text-align: center;
+    margin: 1rem 0
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-info p {
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info {
+    padding: 1rem 2rem
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title {
+    border-bottom: 1px solid #dcd7d7;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: .5rem 0 0 0
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title .title-content {
+    padding: .5rem 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title p:last-child {
+    border-left: 1px solid #dcd7d7
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    font-size: 1rem;
+    font-size: 10px;
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .left {
+    border-left: 1px solid #dcd7d7
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap {
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap::after {
+    content: '';
+    width: 2.2rem;
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 1px solid #dcd7d7
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.phone::after {
+    width: 3.5rem
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.subway::after {
+    width: 2.5rem
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.walk::after {
+    width: 1.8rem
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.bus::after {
+    width: 1.8rem
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .address {
+    margin: 1rem 0;
+    border-left: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .address p:last-child {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap-5 {
+    position: relative
+}
+
+.wrap-5 .wrap-5-title {
+    position: relative;
+    text-align: center;
+    padding: 1rem 0
+}
+
+.wrap-5 .wrap-5-title div .wrap-5-title-star {
+    font-size: 1.5rem;
+    color: #000
+}
+
+.wrap-5 .wrap-5-title div .wrap-5-title-map {
+    font-size: 1.5rem;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #000
+}
+
+.wrap-5 .wrap-5-social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 1rem 4rem
+}
+
+.wrap-5-social div {
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap-5-social div img {
+    display: block;
+    height: 2.5rem;
+    margin: 0 auto
+}
+
+.wrap-5-social > div > div {
+    margin-bottom: 1rem;
+}
