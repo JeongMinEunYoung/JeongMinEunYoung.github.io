@@ -4,18 +4,8 @@
         const e = [...document.querySelectorAll(".preview-item")], t = document.querySelector("#preview"),
             o = document.querySelector(".preview-close"), c = document.querySelector("#prev"),
             r = document.querySelector("#next"), n = document.querySelector("#preview-image"),
-            s = document.querySelectorAll(".call"), a = document.querySelectorAll(".message"),
-            d = document.querySelector(".event-1"), i = document.querySelector(".event-2"),
-            m = document.querySelector(".event-3"), u = document.querySelector(".event-4"),
-            l = document.querySelector(".event-5"), p = document.querySelector(".event-6");
+            s = document.querySelectorAll(".call"), a = document.querySelectorAll(".message");
 
-        function g(e, t) {
-            setTimeout(() => {
-                e.classList.add("active")
-            }, t)
-        }
-
-        g(d, 100), g(i, 250), g(m, 350), g(u, 350), g(l, 500), g(p, 550);
         let k = 1;
         const v = ["resources/compressed/image-1.jpg", "resources/compressed/image-2.jpg", "resources/compressed/image-3.jpg", "resources/compressed/image-9.jpg", "resources/compressed/image-5.jpg", "resources/compressed/image-6.jpg", "resources/compressed/image-7.jpg", "resources/compressed/image-8.jpg", "resources/compressed/image-4.jpg"],
             y = e => {
