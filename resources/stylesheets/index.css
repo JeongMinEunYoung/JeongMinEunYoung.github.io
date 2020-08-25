@@ -317,8 +317,9 @@ p {
     text-align: right;
     padding: .1rem 4.5rem .1rem 0;
     font-size: .9rem;
-    color: #b4b4b4;
+    color: #424242;
     font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 600;
 }
 
 .wrap-2 .wrap-2-intro .wrap-2-groom-bride {
@@ -326,7 +327,8 @@ p {
     grid-template-columns: 1fr 1fr;
     position: relative;
     width: 100%;
-    color: #404040;
+    color: #424242;
+    font-weight: 600;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -570,6 +572,8 @@ img.normal-9 {
 
 .wrap-4 .wrap-4-map .wrap-4-map-info p {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -587,6 +591,7 @@ img.normal-9 {
 
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title .title-content {
     padding: .5rem 0;
+    font-weight: 600;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
@@ -608,6 +613,8 @@ img.normal-9 {
 
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap {
     position: relative;
+    font-weight: 500;
+    font-size: .8rem;
     font-family: 'Noto Sans KR', sans-serif;
 }
 
