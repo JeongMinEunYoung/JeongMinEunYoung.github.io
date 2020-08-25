@@ -149,7 +149,6 @@
     });
 
     setTimeout(() => {
-
         // 마커
         var markerPosition  = new kakao.maps.LatLng(37.2624598,127.0241684);
 
