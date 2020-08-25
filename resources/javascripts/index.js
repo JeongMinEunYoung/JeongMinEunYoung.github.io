@@ -8,6 +8,27 @@
     const callList = document.querySelectorAll(".call");
     const messageList = document.querySelectorAll(".message");
 
+    const event1 = document.querySelector(".event-1");
+    const event2 = document.querySelector(".event-2");
+    const event3 = document.querySelector(".event-3");
+    const event4 = document.querySelector(".event-4");
+    const event5 = document.querySelector(".event-5");
+    const event6 = document.querySelector(".event-6");
+
+    activeEvent(event1 , 100)
+    activeEvent(event2 , 250)
+    activeEvent(event3 , 350)
+    activeEvent(event4 , 350)
+    activeEvent(event5 , 500)
+    activeEvent(event6 , 550)
+
+
+    function activeEvent(element , time) {
+        setTimeout(() => {
+            element.classList.add("active")
+        }, time)
+    }
+
     let index = 1;
     const images = [
         "resources/images/image-1.jpg",

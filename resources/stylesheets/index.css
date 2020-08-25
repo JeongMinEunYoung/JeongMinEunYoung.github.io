@@ -23,14 +23,106 @@ p {
 .wrap {position: relative;height: 100%;}
 
 /* main wrap 1 div */
-.wrap-1 {position: relative;height: 100%;overflow: hidden;background-color:  #FFECE8;}
+.wrap-1 {position: relative;height: 100%;overflow: hidden;background-color:  #FFFFFF;}
+.wrap-1 .wrap-1-groom-bride {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin: 3rem 3rem;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+
+}
+
+.wrap-1 .wrap-1-groom-bride.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.wrap-1 .wrap-1-groom-bride .intro-title{font-family: "SCDream6"; font-weight: 500;}
+.wrap-1 .wrap-1-groom-bride .intro-name{font-family: "aGodic13"; }
+
+.wrap-1 .wrap-1-groom-bride img {
+    width: 50px;
+}
 
 /* main wrap 신랑 신부 image */
-.wrap-1 img {position: absolute;bottom: 0;left: 50%;transform: translateX(-50%);width: 250%;}
+.wrap-1 .wrap-1-main-image {
+    position: relative;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+}
+
+.wrap-1 .wrap-1-main-image.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.wrap-1 .wrap-1-main-image-resource {width: 165%;
+    display: block;
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrap-1 .wrap-1-strong {
+    position: relative;
+    display: inline-block;
+    border-bottom: 3px solid #000;
+    vertical-align: top;
+    font-weight: 700;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+}
+
+.wrap-1 .wrap-1-strong.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.wrap-1 h1 .wrap-1-strong.event-1:before {
+    content: ">>";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    transform: translateY(-50%);
+}
+
+.wrap-1 h1 .wrap-1-strong.event-3:before {
+    content: "<<";
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 20px;
+    transform: translateY(-50%);
+}
+
+.wrap-1 .wrap-1-date {
+    font-style: italic;
+    font-size: 10px;
+    margin-top: 7px;
+    opacity: 0;
+    transform: translate(0, 20px);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+}
+
+.wrap-1 .wrap-1-date.active {
+    opacity: 1;
+    transform: translate(0, 0);
+}
 
 /* top Titles */
 /*rgba(150, 80, 200, 1);*/
-.wrap-1 .wrap-1-title {font-family: SCDream6;position: absolute;top: 2rem;left: 50%;transform: translateX(-50%);text-align: center;font-size: .857rem;color:  #FA5F75;}
+.wrap-1 .wrap-1-title {font-family: SCDream6;position: absolute;top: 2rem;left: 50%;transform: translateX(-50%);text-align: center;font-size: .857rem;color:  #ffffff;}
 
 /* Groom and Brid */
 .wrap-1 .wrap-1-intro {position: absolute;padding: 0 3rem;display: grid;left: 0;grid-template-columns: repeat(3, 1fr);right: 0;top: 15%;}
@@ -64,7 +156,7 @@ p {
 .wrap-2 .wrap-2-intro {display: grid; grid-template-rows: .4fr .6fr; height: 100%;}
 .wrap-2 .wrap-2-intro img {width: 100%;}
 
-.wrap-2 .wrap-2-intro .wrap-2-msg-sep {padding: 1.5rem 0; text-align: center;  font-family: SCDream5; color: #9650c8;}
+.wrap-2 .wrap-2-intro .wrap-2-msg-sep {padding: 1rem 0; text-align: center;  font-family: SCDream5; color: #9650c8;}
 .wrap-2 .wrap-2-intro .wrap-2-msg-title { font-size: 1.5rem; text-align: center; padding : 0 0 2rem 0; color: #9650c8; font-family:SourceHanSerifK;}
 .wrap-2 .wrap-2-intro .wrap-2-msg p{text-align: right;
     padding: .1rem 4.5rem .1rem 0;
@@ -84,7 +176,7 @@ p {
 .wrap-3 .wrap-3-title{position: relative; text-align: center; padding: 1rem 0;}
 .wrap-3 .wrap-3-title div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
 .wrap-3 .wrap-3-title div .wrap-3-title-star{ font-size: 1.5rem; font-family: SCDream5; color: #9650c8;}
-.wrap-3 .wrap-3-title div .wrap-3-title-gallery { font-size: 1.5rem; color: #c5c5c5; font-family:SourceHanSerifK;}
+.wrap-3 .wrap-3-title div .wrap-3-title-gallery { font-size: 1.5rem; color: #9650c8; font-family:SourceHanSerifK;}
 .wrap-3 .wrap-3-images { position: relative;}
 
 
@@ -106,7 +198,7 @@ p {
     }
 }
 
-.wrap-3 .wrap-3-images .wrap-3-image-wrap > div {overflow: hidden;position: relative;}
+.wrap-3 .wrap-3-images .wrap-3-image-wrap > div {overflow: hidden;position: relative; border-radius: 5px;}
 
 img.normal {left: 50%;top: 50%;transform: translate(-50%, -50%);height: 100%;}
 /*img.top{left: 50%;top: 50%;width: 50%;transform: translate(-50%, -50%);object-fit: contain;}*/
@@ -213,7 +305,7 @@ img.normal-9 {left: 70%;}
 .wrap-4 .wrap-4-title{position: relative; text-align: center; padding: 1rem 0;}
 .wrap-4 .wrap-4-title div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
 .wrap-4 .wrap-4-title div .wrap-4-title-star{ font-size: 1.5rem; font-family: SCDream5; color: #9650c8;}
-.wrap-4 .wrap-4-title div .wrap-4-title-map { font-size: 1.5rem; font-family: SourceHanSerifK; color: #c5c5c5;}
+.wrap-4 .wrap-4-title div .wrap-4-title-map { font-size: 1.5rem; font-family: SourceHanSerifK; color: #9650c8;}
 .wrap-4 .wrap-4-map .kakao-map {
     width: 100%;
     height: 300px;
@@ -308,7 +400,7 @@ img.normal-9 {left: 70%;}
 .wrap-5 .wrap-5-title{position: relative; text-align: center; padding: 1rem 0;}
 /*.wrap-5 .wrap-5-title div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}*/
 .wrap-5 .wrap-5-title div .wrap-5-title-star{ font-size: 1.5rem; font-family: SCDream5; color: #9650c8;}
-.wrap-5 .wrap-5-title div .wrap-5-title-map { font-size: 1.5rem; font-family: SourceHanSerifK; color: #c5c5c5;}
+.wrap-5 .wrap-5-title div .wrap-5-title-map { font-size: 1.5rem; font-family: SourceHanSerifK; color: #9650c8;}
 
 .wrap-5 .wrap-5-social {display: grid; grid-template-columns: repeat(3 , 1fr); text-align: center; padding: 1rem 2rem;
 grid-column-gap: 2rem;}
