@@ -617,7 +617,7 @@ img.normal-9 {
 
 .wrap-4 {
     position: relative;
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
 }
 
 .wrap-4 > div {
@@ -670,7 +670,7 @@ img.normal-9 {
 }
 
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dcd7d7;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -683,7 +683,7 @@ img.normal-9 {
 }
 
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .title p:last-child {
-    border-left: 1px solid black;
+    border-left: 1px solid #dcd7d7;
 }
 
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content {
@@ -695,7 +695,7 @@ img.normal-9 {
 }
 
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .left {
-    border-left: 1px solid black;
+    border-left: 1px solid #dcd7d7;
 }
 
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap {
@@ -711,7 +711,7 @@ img.normal-9 {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #dcd7d7;
 }
 
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .tap.phone::after {
@@ -768,8 +768,7 @@ img.normal-9 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
-    padding: 1rem 2rem;
-    grid-column-gap: 2rem;
+    padding: 1rem 4rem;
 }
 
 .wrap-5-social div {
@@ -778,7 +777,7 @@ img.normal-9 {
 
 .wrap-5-social div img {
     display: block;
-    height: 3rem;
+    height: 2.5rem;
     margin: 0 auto;
 }
 
