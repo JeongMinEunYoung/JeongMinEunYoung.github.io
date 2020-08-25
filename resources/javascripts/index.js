@@ -92,4 +92,17 @@
 
     // 마커가 지도 위에 표시되도록 설정합니다
     marker.setMap(map);
+
+
+    document.querySelector("#kakaoLogin").addEventListener("click", () => {
+        Kakao.init('621825037a17efac957f388450f47601');
+        Kakao.Link.createCustomButton({
+            templateId: 35032 ,
+            templateArgs: {
+                'title': '제목 영역입니다.',
+                'description': '설명 영역입니다.'
+            }
+        });
+        //]]>
+    })
 })();
