@@ -74,7 +74,7 @@ html , body {font-size: 14px;width : 100%;height : 100%;}
 .wrap-3 .wrap-3-title{position: relative; text-align: center; padding: 1rem 0;}
 .wrap-3 .wrap-3-title div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
 .wrap-3 .wrap-3-title div .wrap-3-title-star{ font-size: 1.5rem; font-family: SCDream5; color: #9650c8;}
-.wrap-3 .wrap-3-title div .wrap-3-title-gallery { font-size: 1.5rem; color: #9650c8; font-family:SourceHanSerifK;}
+.wrap-3 .wrap-3-title div .wrap-3-title-gallery { font-size: 1.5rem; color: #c5c5c5; font-family:SourceHanSerifK;}
 .wrap-3 .wrap-3-images { position: relative;}
 
 
@@ -203,7 +203,7 @@ img.normal-9 {left: 70%;}
 .wrap-4 .wrap-4-title{position: relative; text-align: center; padding: 1rem 0;}
 .wrap-4 .wrap-4-title div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
 .wrap-4 .wrap-4-title div .wrap-4-title-star{ font-size: 1.5rem; font-family: SCDream5; color: #9650c8;}
-.wrap-4 .wrap-4-title div .wrap-4-title-map { font-size: 1.5rem; font-family: SourceHanSerifK; color: #9650c8;}
+.wrap-4 .wrap-4-title div .wrap-4-title-map { font-size: 1.5rem; font-family: SourceHanSerifK; color: #c5c5c5;}
 .wrap-4 .wrap-4-map .kakao-map {
     width: 100%;
     height: 300px;
@@ -292,3 +292,14 @@ img.normal-9 {left: 70%;}
 .wrap-4 .wrap-4-map .wrap-4-map-wedding-info .content .address p:last-child {
     font-family: aGodic15;
 }
+
+.wrap-5 {position: relative;}
+.wrap-5 .wrap-5-title{position: relative; text-align: center; padding: 1rem 0;}
+/*.wrap-5 .wrap-5-title div {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}*/
+.wrap-5 .wrap-5-title div .wrap-5-title-star{ font-size: 1.5rem; font-family: SCDream5; color: #9650c8;}
+.wrap-5 .wrap-5-title div .wrap-5-title-map { font-size: 1.5rem; font-family: SourceHanSerifK; color: #c5c5c5;}
+
+.wrap-5 .wrap-5-social {display: grid; grid-template-columns: repeat(4 , 1fr); text-align: center; padding: 1rem 2rem;
+grid-column-gap: 2rem;}
+.wrap-5-social div{ position: relative;}
+.wrap-5-social div img {     display: block; height: 59px; margin: 0 auto;}
