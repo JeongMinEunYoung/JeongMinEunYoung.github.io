@@ -7,7 +7,7 @@
             s = document.querySelectorAll(".call"), a = document.querySelectorAll(".message");
 
         let k = 1;
-        const v = ["resources/compressed/image-1.jpg", "resources/compressed/image-2.jpg", "resources/compressed/image-3.jpg", "resources/compressed/image-9.jpg", "resources/compressed/image-5.jpg", "resources/compressed/image-6.jpg", "resources/compressed/image-7.jpg", "resources/compressed/image-8.jpg", "resources/compressed/image-4.jpg"],
+        const v = ["../resources/compressed/image-1.jpg", "../resources/compressed/image-2.jpg", "../resources/compressed/image-3.jpg", "../resources/compressed/image-9.jpg", "../resources/compressed/image-5.jpg", "../resources/compressed/image-6.jpg", "../resources/compressed/image-7.jpg", "../resources/compressed/image-8.jpg", "../resources/compressed/image-4.jpg"],
             y = e => {
                 k = e, n.src = v[e], (e => {
                     e.classList.remove("hidden")
