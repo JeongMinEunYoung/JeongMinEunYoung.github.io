@@ -36,6 +36,13 @@
         }), r.addEventListener("click", () => {
             S(++k, v)
         }), Kakao.init("621825037a17efac957f388450f47601"), Kakao.isInitialized(), document.querySelector("#kakaoSharing").addEventListener("click", () => {
+
+            if(location.pathname === '/v2/') {
+                console.log("v2")
+                Kakao.Link.sendCustom({templateId: 65885, templateArgs: {title: "제목 영역입니다.", description: "설명 영역입니다."}})
+                return;
+            }
+            console.log("V1")
             Kakao.Link.sendCustom({templateId: 35032, templateArgs: {title: "제목 영역입니다.", description: "설명 영역입니다."}})
         }), document.querySelector("#facebookSharing").addEventListener("click", () => {
             location.href = "https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=http://jeongmineunyoung.github.io/"
